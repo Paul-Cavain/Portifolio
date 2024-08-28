@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaMailchimp, FaPhone, FaTwitter, FaVoicemail } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
 
 
 const Contacts = () => {
@@ -15,7 +15,7 @@ const Contacts = () => {
                 <div className="flex flex-col md:flex-row justify-around py-10">
 
                     {/* contact informations */}
-                    <div className="bg-gradient-to-r from-pink-400 to-violet-700 px-8 md:px-20 py-10 w-full rounded-md md:rounded-l-md">
+                    <div className="bg-black text-white px-8 md:px-20 py-10 w-full rounded-md md:rounded-l-md">
                         <h2 className="text-xl md:text-2xl">Contact Information</h2>
                         <p>Fill up the form to get a quicky feedback within 24hours</p>
 
@@ -83,7 +83,7 @@ const Contacts = () => {
                                 <label for="floating_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
                             </div>
                             <div className="pt-6 flex justify-end">
-                                <input type="button" name="submit" value="Send Message" className="w-32 h-10 rounded-md text-white bg-violet-600" />
+                                <input type="button" name="submit" value="Send Message" className="w-32 h-10 rounded-md text-white bg-black" />
                             </div>
                         </form>
                     </div>

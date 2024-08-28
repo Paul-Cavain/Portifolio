@@ -4,8 +4,8 @@ import { useState } from 'react';
 import React, { useRef } from 'react';
 import image from '../src/pas.png';
 import resume from "./resume.pdf";
-import { FaArrowRight, FaBook, FaCss3, FaDraft2Digital, FaFigma, FaGifts, FaHeadphones, FaLightbulb, FaLink, FaMapMarked, FaMobile, FaRegFontAwesomeLogoFull, FaSubscript } from "react-icons/fa";
-import { FaArrowUp, FaBootstrap, FaCloud, FaDatabase, FaDocker, FaGit, FaLaptop, FaLaravel, FaLinux, FaNodeJs, FaReact, FaTrailer } from "react-icons/fa";
+import { FaCss3, FaDraft2Digital, FaFigma, FaGifts, FaHeadphones, FaLightbulb, FaLink, FaMobile, FaSubscript } from "react-icons/fa";
+import { FaArrowUp, FaBootstrap, FaCloud, FaDatabase, FaDocker, FaGit, FaLaptop, FaLaravel, FaLinux, FaNodeJs, FaReact } from "react-icons/fa";
 
 
 const About = () => {
@@ -56,7 +56,7 @@ const About = () => {
               
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 pt-10 px-4 md:px-0">
 
-                <div className="bg-gradient-to-r from-pink-400 to-violet-700 w-full px-8 py-8 md:py-4 rounded-md">
+                <div className="bg-black w-full px-8 py-8 md:py-4 rounded-md">
                   <span className="flex justify-center">
                     <FaLightbulb className="text-3xl text-white"/>
                   </span>
@@ -66,7 +66,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-pink-400 to-violet-700 w-full px-8 py-8 md:py-4 rounded-md">
+                <div className="bg-black w-full px-8 py-8 md:py-4 rounded-md">
                   <span className="flex justify-center">
                     <FaGifts className="text-3xl text-white"/>
                   </span>
@@ -76,7 +76,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-pink-400 to-violet-700 w-full px-8 py-8 md:py-4 rounded-md">
+                <div className="bg-black w-full px-8 py-8 md:py-4 rounded-md">
                   <span className="flex justify-center">
                     <FaHeadphones className="text-3xl text-white"/>
                   </span>
@@ -93,7 +93,7 @@ const About = () => {
                 </div>
                 <div className="mt-6">
                   <a href={resume} download={"Paulo Nkelego Resume"}>
-                    <button type="button" name="download_cv" className="w-34 px-4 rounded-md text-white bg-violet-600 text-center h-10 hover:text-gray-300">Download CV</button>
+                    <button type="button" name="download_cv" className="w-34 px-4 rounded-md text-white bg-black text-center h-10 hover:text-gray-300">Download CV</button>
                   </a>
                 </div>
               </div>
@@ -295,7 +295,7 @@ const About = () => {
           
           <div className="flex flex-col md:flex-row justify-center md:space-x-4 space-y-4 md:space-y-0 md:mt-10">
 
-            <div className="relative bg-gradient-to-r from-pink-400 to-violet-700 py-12 mt-4 md:mt-0 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
+            <div className="relative bg-black py-12 mt-4 md:mt-0 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
               <div className="front-content">
                 <div className="flex justify-center">
                   <FaFigma className="text-3xl"/>
@@ -312,7 +312,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative bg-gradient-to-r from-pink-400 to-violet-700 py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
+            <div className="relative bg-black py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
               <div className="front-content">
                 <div className="flex justify-center">
                   <FaReact className="text-3xl"/>
@@ -329,7 +329,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative bg-gradient-to-r from-pink-400 to-violet-700 py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
+            <div className="relative bg-black py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
               <div className="front-content">
                 <div className="flex justify-center">
                   <FaDatabase className="text-2xl"/>
@@ -346,7 +346,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="relative bg-gradient-to-r from-pink-400 to-violet-700 py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
+            <div className="relative bg-black py-12 mt-16 w-full rounded-md text-white transform transition-transform hover:translate-x-1 card">
               <div className="front-content">
                 <div className="flex justify-center">
                   <FaMobile className="text-2xl"/>
@@ -365,7 +365,7 @@ const About = () => {
           </div> 
         </div>
 
-        <div ref={arrowRef} className="fixed bottom-16 right-10 cursor-pointer text-xl text-white bg-violet-600 rounded-full p-2 shadow" onClick={handleClick}>
+        <div ref={arrowRef} className="fixed bottom-16 right-10 cursor-pointer text-xl text-white bg-black rounded-full p-2 shadow" onClick={handleClick}>
           <FaArrowUp />
         </div>
 

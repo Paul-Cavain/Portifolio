@@ -31,7 +31,7 @@ const Home = () => {
               <div className='px-3 md:px-0 break-all'>
                 <p>I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
               </div>
-              <div className='text-violet-600 mt-12 md:mt-8 flex justify-center md:justify-start text-2xl space-x-6'>
+              <div className='text-black mt-12 md:mt-8 flex justify-center md:justify-start text-2xl space-x-6'>
                 <a href='https://twitter.com/Cavain_tz'><FaTwitter className='hover:text-black'/></a>
                 <a href='https://github.com/Paul-Cavain'><FaGithub className='hover:text-black'/></a>
                 <a href='#'><FaDribbble className='hover:text-black'/></a>
@@ -40,7 +40,7 @@ const Home = () => {
               </div>
               <div className='flex justify-center md:justify-start'>
                 <a href={resume} download={"Paulo Nkelego Resume"}>
-                  <button type='button' name="download_cv" className='text-white bg-violet-600 h-12 w-32 rounded-md mt-9 md:mt-8 hover:text-gray-300'>Download CV</button>
+                  <button type='button' name="download_cv" className='text-white bg-black h-12 w-32 rounded-md mt-9 md:mt-8 hover:text-gray-300 transition ease-out duration-500'>Download CV</button>
                 </a>
               </div>
             </div>
@@ -59,14 +59,14 @@ const Home = () => {
           <p className="mt-6 text-md md:text-xl">I Will Surely Show You How I Turn Your Idea Into The Amazing One</p>
           <div>
             <a href="./Contacts">
-            <button type="button" name="submit" className="w-32 h-12 mt-6 rounded-md text-white bg-violet-600">Let'sTalk</button></a>
+            <button type="button" name="submit" className="w-32 h-12 mt-6 rounded-md text-white bg-black">Let'sTalk</button></a>
           </div>
         </div>
 
         {/* Fixed Arrow-Top Icon */}
         <div
           ref={arrowRef}
-          className="fixed bottom-16 right-4 md:right-20 cursor-pointer text-xl text-white bg-violet-600 rounded-full p-2 shadow"
+          className="fixed bottom-16 right-4 md:right-20 cursor-pointer text-xl text-white bg-black rounded-full p-2 shadow"
           onClick={handleClick}
         >
           <FaArrowUp />
