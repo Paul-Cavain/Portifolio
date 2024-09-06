@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaLocationArrow, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
+import { BsCompass, BsEnvelope, BsLinkedin, BsGithub, BsPhone, BsStopwatch, BsTwitter } from "react-icons/bs";
 
 
 const Contacts = () => {
@@ -17,28 +17,28 @@ const Contacts = () => {
                     {/* contact informations */}
                     <div className="bg-black text-white px-8 md:px-20 py-10 w-full rounded-md md:rounded-l-md">
                         <h2 className="text-xl md:text-2xl">Contact Information</h2>
-                        <p>Fill up the form to get a quicky feedback within 24hours</p>
+                        <p>Fill up the form to get a quicky feedback</p>
 
-                        <div className="mt-10 text-white">
+                        <div className="mt-16 text-white">
                             <div className="flex flex-row space-x-8">
                                 <div>
-                                    <FaPhone className="text-xl"/>
+                                    <BsPhone className="text-2xl"/>
                                 </div>
                                 <div>
                                     <h2>+255717416853</h2>
                                 </div>
                             </div>
-                            <div className="flex flex-row space-x-8 mt-4">
+                            <div className="flex flex-row space-x-10 mt-4">
                                 <div>
-                                    <FaMailBulk className="text-xl" />
+                                    <BsEnvelope className="text-2xl" />
                                 </div>
                                 <div>
                                     <h2>paulcavain02@gmail.com</h2>
                                 </div>
                             </div>
-                            <div className="flex flex-row space-x-6 mt-4">
+                            <div className="flex flex-row space-x-10 mt-4">
                                 <div>
-                                    <FaLocationArrow className="text-xl"/>
+                                    <BsCompass className="text-2xl"/>
                                 </div>
                                 <div>
                                     <h2>Dodoma-Tanzania</h2>
@@ -47,11 +47,11 @@ const Contacts = () => {
                         </div>
 
                         <div className="flex flex-row text-xl mt-10 md:mt-20 space-x-6">
-                            <a href="https://twitter.com/Cavain_tz" className="hover:text-white"><FaTwitter /></a>
-                            <a href="https://github.com/Paul-Cavain" className="hover:text-white"><FaGithub /></a>
-                            <a href="" className="hover:text-white"><FaInstagram /></a>
-                            <a href="" className="hover:text-white"><FaLinkedin /></a>
-                            <a href="" className="hover:text-white"><FaFacebook /></a>
+                            
+                            <a href="https://github.com/Paul-Cavain" className="hover:ring-2 hover:ring-white rounded-full p-3"><BsGithub /></a>
+                            <a href="" className="hover:ring-2 hover:ring-white rounded-full p-3"><BsLinkedin /></a>
+                            <a href="https://twitter.com/Cavain_tz" className="hover:ring-2 hover:ring-white rounded-full p-3"><BsTwitter /></a>
+                            <a href="" className="hover:ring-2 hover:ring-white rounded-full p-3"><BsStopwatch /></a>  
                         </div>
                     </div>
 

@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="fixed top-0 left-0 z-10 right-0 flex flex-row justify-between px-4 md:px-28 bg-white py-6 shadow-md md:shadow-sm">
                 <div className="text-xl md:text-2xl">
                     <a href="/">
-                        <h1 className="">PauloNkelego</h1>
+                        <h1 className="font-bold">PauloNkelego</h1>
                     </a>
                 </div>
                 
@@ -26,7 +26,7 @@ const Navbar = () => {
                         <a href="/Works">
                             <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Works</li>
                         </a>
-                        <a href="/Blogs">
+                        <a href="/Testimonies">
                             <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Testimonies</li>
                         </a>
                         <a href="/Contacts">
@@ -46,9 +46,9 @@ const Navbar = () => {
 
                     <div className="flex flex-row space-x-8 w-full justify-between">
                         <div>
-                            <h3 className="text-2xl">CavainCoder</h3>
+                            <h3 className="text-2xl font-bold">PauloNkelego</h3>
                         </div>
-                        <div onClick={handleNav} className="cursor-pointer bg-violet-600 rounded-full text-white">
+                        <div onClick={handleNav} className="cursor-pointer rounded-full text-black">
                             <AiOutlineClose size={30} />
                         </div>
                     </div>
@@ -73,12 +73,12 @@ const Navbar = () => {
                                     About Me
                                 </li>
                             </a>
-                            <a href="#">
+                            <a href="/Testimonies">
                                 <li
                                     onClick={() => stMenuOpen(false)}
                                     className="py-4 cursor-pointer"
                                 >
-                                    Blogs
+                                    Testimonies
                                 </li>
                             </a>
                             
