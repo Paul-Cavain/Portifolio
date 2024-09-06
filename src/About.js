@@ -15,7 +15,7 @@ const About = () => {
 
   const toggleAccordion = () => {
     setAccordionOpen(!accordionOpen);
-  };
+  };z
 
   const handleScrollToTop = () => {
     window.scrollTo({
@@ -89,7 +89,7 @@ const About = () => {
 
               <div className="mt-12 px-4 md:px-0">
                 <div className="">
-                  <p>A Full Stack developer, I create Web Pages with UI/UX user interface, mobile applications for both Android and iOS.</p>
+                  <p>A Pasionated Front End developer, I create Web Pages with UI/UX user interface, mobile applications for both Android and iOS.</p>
                 </div>
                 <div className="mt-6">
                   <a href={resume} download={"Paulo Nkelego Resume"}>

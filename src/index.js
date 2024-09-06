@@ -7,8 +7,6 @@ import About from './About';
 import Works from './Works';
 import Testimonies from './Testimonies';
 import Contacts from './Contacts';
-// import HomeAdmin from './Admin';
-// import AdminWorks from './Admin/AdminWorks';
 
 
 const router = createBrowserRouter([
@@ -17,9 +15,6 @@ const router = createBrowserRouter([
   {path: "/Testimonies", element: <Testimonies />, },
   {path: "/Works", element: <Works />, },
   {path: "/Contacts", element: <Contacts />, },
-  // {path: "/Admin/", element: <HomeAdmin />, },
-  // {path: "/Admin/AdminWorks", element: <AdminWorks />, },
-  // {path: "/Admin/Dashboard", element: <Dashboard />, },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,7 +1,20 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 const Testimonies  = () => {
     return(
         <section>
-            <span>Testimonies</span>
+            <nav>
+                <Navbar />
+            </nav>
+
+            <main className="mt-24">
+                <span>Testimonies</span>
+            </main>
+
+            <footer>
+                <Footer />
+            </footer>
         </section>
     );
 }
