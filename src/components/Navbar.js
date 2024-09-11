@@ -21,16 +21,16 @@ const Navbar = () => {
                 <div className="text-xl md:flex hidden">
                     <ul className="flex flex-row space-x-8">
                         <a href="/About">
-                            <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>About Me</li>
+                            <li className='transition ease-linear duration-500 hover:bg-black hover:text-white p-2.5 rounded'>About Me</li>
                         </a>
                         <a href="/Works">
-                            <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Works</li>
+                            <li className='transition ease-linear duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Works</li>
                         </a>
                         <a href="/Testimonies">
-                            <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Testimonies</li>
+                            <li className='transition ease-linear duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Testimonies</li>
                         </a>
                         <a href="/Contacts">
-                            <li className='transition ease-out duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Contacts</li>
+                            <li className='transition ease-linear duration-500 hover:bg-black hover:text-white p-2.5 rounded'>Contacts</li>
                         </a>
                     </ul>
                 </div>

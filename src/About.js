@@ -15,7 +15,7 @@ const About = () => {
 
   const toggleAccordion = () => {
     setAccordionOpen(!accordionOpen);
-  };z
+  };
 
   const handleScrollToTop = () => {
     window.scrollTo({
