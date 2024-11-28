@@ -1,14 +1,14 @@
-import Navbar from './components/Navbar';
-import Home from './Home';
-import Footer from './components/Footer';
+import Navbar from "./components/Navbar";
+import Home from "./Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <div>
         <Navbar />
       </div>
-      <div className='content'>
+      <div className="content">
         <Home />
       </div>
       <div>
