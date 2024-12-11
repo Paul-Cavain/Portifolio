@@ -44,7 +44,7 @@ const Home = () => {
                   building efficient and scalable software systems. Here, I
                   share insights, tips, and experiences from my journey in tech.
                   Thanks for stopping by —let us explore, learn, and grow
-                  together!
+                  together!!
                 </p>
               </div>
               <div className="text-black mt-12 md:mt-8 flex justify-center md:justify-start text-2xl space-x-2">
