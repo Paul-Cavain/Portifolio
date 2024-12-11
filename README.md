@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![portifolioimage](https://github.com/user-attachments/assets/d6a0fb77-a323-4e26-b81f-1f172c6923c0).
+![screenshot ](https://github.com/user-attachments/assets/ef2742dc-0e42-4cc0-bdff-7fbac057bbb8)
 
 ## Development
 
