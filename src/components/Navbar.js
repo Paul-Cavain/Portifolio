@@ -1,6 +1,5 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, stMenuOpen] = useState(false);
@@ -20,22 +19,22 @@ const Navbar = () => {
         <div className="text-xl md:flex hidden">
           <ul className="flex flex-row space-x-8">
             <a href="/About">
-              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black hover:border-b-2 hover:border-b-black">
+              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black">
                 About Me
               </li>
             </a>
             <a href="/Works">
-              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black hover:border-b-2 hover:border-b-black">
+              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black">
                 Works
               </li>
             </a>
             <a href="/Testimonies">
-              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black hover:border-b-2 hover:border-b-black">
+              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black">
                 Testimonies
               </li>
             </a>
             <a href="/Contacts">
-              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black hover:border-b-2 hover:border-b-black">
+              <li className="transition ease-linear duration-500 p-2.5 rounded hover:bg-white hover:text-black">
                 Contacts
               </li>
             </a>

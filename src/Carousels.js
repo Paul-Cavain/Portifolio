@@ -30,16 +30,6 @@ const Carousels = () => {
     },
   ];
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
-    );
-  };
-
   // Auto-slide logic
   useEffect(() => {
     const interval = setInterval(() => {
