@@ -29,8 +29,9 @@ const Home = () => {
   return (
     <>
       <div className="home w-full px-4 md:px-28 pb-32 md:pb-36">
-        {/* my introduction */}
+        {/* Introduction Section */}
         <div className="flex flex-col md:flex-row w-full h-screen md:pt-32">
+          {/* Text Section */}
           <div className="w-full md:w-1/2 pt-32">
             <div className="text-center md:text-start">
               <h2 className="text-2xl md:text-6xl font-semibold">
@@ -44,9 +45,10 @@ const Home = () => {
                   building efficient and scalable software systems. Here, I
                   share insights, tips, and experiences from my journey in tech.
                   Thanks for stopping by —let us explore, learn, and grow
-                  together!!
+                  together!
                 </p>
               </div>
+              {/* Social Icons */}
               <div className="text-black mt-12 md:mt-8 flex justify-center md:justify-start text-2xl space-x-2">
                 <a href="https://twitter.com/Cavain_tz">
                   <FaTwitter
@@ -80,6 +82,7 @@ const Home = () => {
                 </a>
               </div>
 
+              {/* Download CV Button */}
               <div className="flex justify-center md:justify-start">
                 <a href={resume} download={"Paulo Nkelego Resume"}>
                   <button
@@ -94,18 +97,19 @@ const Home = () => {
             </div>
           </div>
 
+          {/* Image Section */}
           <div className="flex flex-wrap justify-center w-full md:w-1/2">
             <div className="px-10 md:mt-3 md:w-3/4">
               <img
                 src={HomeImage}
-                alt="my image"
+                alt="Paulo Nkelego"
                 className="mt-20 mb-40 rounded-full ring-1 ring-gray-300 object-cover"
               />
             </div>
           </div>
         </div>
 
-        {/* introduction image */}
+        {/* Call to Action Section */}
         <div className="w-full text-center mt-44 md:mt-0">
           <h3 className="text-2xl md:text-4xl">
             Interested in Working Together With Me?
@@ -120,13 +124,13 @@ const Home = () => {
                 name="submit"
                 className="w-32 h-12 mt-6 rounded-md text-white bg-black transition ease-out duration-500 hover:bg-white hover:text-black hover:border-2 hover:border-black hover:text-semibold"
               >
-                Let'sTalk
+                Let's Talk
               </button>
             </a>
           </div>
         </div>
 
-        {/* Fixed Arrow-Top Icon */}
+        {/* Fixed Scroll-to-Top Arrow */}
         <div
           ref={arrowRef}
           className="fixed bottom-16 right-4 md:right-20 cursor-pointer text-xl text-white bg-black rounded-full p-2 shadow hover:ring-2 hover:ring-black hover:bg-white hover:text-black"

@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { useState } from "react";
 import React, { useRef } from "react";
 import Image from "../src/pas.png";
 import resume from "./resume.pdf";
@@ -9,12 +8,6 @@ import Services from "./Services";
 import { FaLightbulb, FaGifts, FaHeadphones, FaArrowUp } from "react-icons/fa";
 
 const About = () => {
-  const [accordionOpen, setAccordionOpen] = useState(false);
-
-  const toggleAccordion = () => {
-    setAccordionOpen(!accordionOpen);
-  };
-
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -36,7 +29,7 @@ const About = () => {
       </div>
 
       <div className="md:px-28 pb-32">
-        {/* about my informations */}
+        {/* About Section */}
         <div className="pt-32 md:pt-40">
           <h3 className="text-center text-2xl md:text-4xl">About Me</h3>
           <p className="text-center text-lg md:text-xl">My Introduction</p>
@@ -46,8 +39,8 @@ const About = () => {
               <div className="md:px-10 md:mt-3 px-10">
                 <img
                   src={Image}
-                  alt="my passport"
-                  className="ring-1 ring-black rounded-full size-96"
+                  alt="Paulo Nkelego"
+                  className="ring-1 ring-black rounded-full size-96 mt-20 mb-40 object-cover"
                 />
               </div>
             </div>
@@ -86,7 +79,7 @@ const About = () => {
               </div>
 
               <div className="mt-12 px-4 md:px-0">
-                <div className="">
+                <div>
                   <p>
                     A Pasionated Front End developer, I create Web Pages with
                     UI/UX user interface, mobile applications for both Android
@@ -109,12 +102,13 @@ const About = () => {
           </div>
         </div>
 
-        {/* my skills and tools */}
+        {/* Skills Section */}
         <Skills />
 
-        {/* services */}
+        {/* Services Section */}
         <Services />
 
+        {/* Scroll-to-Top Arrow */}
         <div
           ref={arrowRef}
           className="fixed bottom-16 right-10 cursor-pointer text-xl text-white bg-black rounded-full p-2 shadow hover:ring-2 hover:ring-black hover:bg-white hover:text-black"
