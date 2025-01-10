@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
-import HomeImage from "./pas.png";
-import resume from "./resume.pdf";
+import resume from "../../resume.pdf";
 
 import {
   FaTwitter,
@@ -34,12 +33,12 @@ const Home = () => {
           {/* Text Section */}
           <div className="w-full md:w-1/2 pt-32">
             <div className="text-center md:text-start">
-              <h2 className="text-2xl md:text-6xl font-semibold">
+              <h2 className="text-2xl md:text-3xl jersey-15-regular ">
                 I'm PauloNkelego
               </h2>
             </div>
             <div className="mt-3 md:mt-5 text-md md:text-lg">
-              <div className="px-3 md:px-0 break-all">
+              <div className="px-3 md:px-0 break-all jersey-15-regulary">
                 <p>
                   Hi, I am Paulo Nkelego, a software engineer passionate about
                   building efficient and scalable software systems. Here, I
@@ -101,7 +100,7 @@ const Home = () => {
           <div className="flex flex-wrap justify-center w-full md:w-1/2">
             <div className="px-10 md:mt-3 md:w-3/4">
               <img
-                src={HomeImage}
+                src="/assets/images/profile.jpg"
                 alt="Paulo Nkelego"
                 className="mt-20 mb-40 rounded-full ring-1 ring-gray-300 object-cover"
               />

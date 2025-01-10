@@ -15,7 +15,7 @@ import {
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center pt-32 px-20">
+    <div className="flex flex-col justify-center pt-32 md:pt-48 px-20">
       <div className="flex justify-between text-center">
         <h3 className=" text-2xl md:text-2xl font-semibold">Skills & Tools</h3>
         <hr className="border-2 border-black text-center hidden" />
