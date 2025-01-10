@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this CSS to your existing Tailwind CSS file or create a new one */
+.card:hover .front-content {
+  opacity: 0; /* Hide the front content on hover */
+}
+
+.card:hover .hover-content {
+  opacity: 1; /* Show the hover content on hover */
+}
+
+.jersey-15-regulary {
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-15-regular {
+  font-family: "Jersey 15", serif;
+  font-weight: 600;
+  font-style: normal;
+}

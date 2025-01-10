@@ -1,5 +1,6 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Footer from "./../../components/Common/Footer";
+import Navbar from "./../../components/Common/Navbar";
+import { Link } from "react-router-dom";
 import {
   BsCompass,
   BsEnvelope,
@@ -53,30 +54,30 @@ const Contacts = () => {
             </div>
 
             <div className="flex flex-row text-xl mt-10 md:mt-20 space-x-6">
-              <a
-                href="https://github.com/Paul-Cavain"
+              <Link
+                to="https://github.com/Paul-Cavain"
                 className="hover:ring-2 hover:ring-white rounded-full p-3"
               >
                 <BsGithub />
-              </a>
-              <a
-                href=""
+              </Link>
+              <Link
+                to=""
                 className="hover:ring-2 hover:ring-white rounded-full p-3"
               >
                 <BsLinkedin />
-              </a>
-              <a
-                href="https://twitter.com/Cavain_tz"
+              </Link>
+              <Link
+                to="https://twitter.com/Cavain_tz"
                 className="hover:ring-2 hover:ring-white rounded-full p-3"
               >
                 <BsTwitter />
-              </a>
-              <a
-                href=""
+              </Link>
+              <Link
+                to="https://twitter.com/Cavain_tz"
                 className="hover:ring-2 hover:ring-white rounded-full p-3"
               >
                 <BsStopwatch />
-              </a>
+              </Link>
             </div>
           </div>
 
