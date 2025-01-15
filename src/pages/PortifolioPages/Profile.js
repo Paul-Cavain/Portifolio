@@ -9,7 +9,7 @@ const Profile = () => {
         <img
           src="/assets/images/profile.jpg"
           alt="Paulo Nkelego"
-          className="ring-2 ring-black rounded-full w-80 h-80 object-cover"
+          className="rounded-full w-80 h-80 object-cover"
         />
       </div>
 
