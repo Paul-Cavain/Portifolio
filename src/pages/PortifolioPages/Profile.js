@@ -14,7 +14,7 @@ const Profile = () => {
       </div>
 
       {/* Profile Content */}
-      <div className="flex flex-col md:w-2/3 space-y-8 mt-10 md:mt-0">
+      <div className="flex flex-col md:w-2/3 space-y-8 mt-14 md:mt-0">
         {/* Experience, Projects, and Support Cards */}
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <div className="bg-black flex-1 px-8 py-6 rounded-md text-center">
@@ -41,13 +41,13 @@ const Profile = () => {
         </div>
 
         {/* Description and Download CV */}
-        <div className="text-center md:text-left md:pt-10">
+        <div className="text-center md:text-left pt-10 md:pt-10">
           <p className="text-gray-700">
             A passionate Front-End developer, I create web pages with
             user-friendly UI/UX designs and develop mobile applications for both
             Android and iOS.
           </p>
-          <div className="mt-6 text-end">
+          <div className="mt-12 md:mt-6 text-center md:text-end">
             <a href={resume} download={"Paulo Nkelego Resume"}>
               <button
                 type="button"
